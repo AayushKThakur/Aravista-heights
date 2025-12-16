@@ -1,17 +1,32 @@
 # Aravista Heights
 
-Ultra-luxury residential project featuring premium penthouses and designer residences with panoramic views, world-class amenities, and concierge services.
+A modern, responsive website for Aravista Heights - an ultra-luxury residential project featuring premium penthouses and designer residences with panoramic views, world-class amenities, and concierge services.
 
-## Project info
+## About
 
-**URL**: https://aravistaheights.com
+Aravista Heights showcases luxury living spaces with:
+- Premium penthouse apartments
+- Designer residences with modern amenities
+- Panoramic city views
+- World-class concierge services
+- Architectural excellence
+
+## Technologies Used
+
+- **React** 19.2.1 - UI library
+- **TypeScript** - Type-safe JavaScript
+- **Vite** 7.2.7 - Build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Modern UI components
+- **Framer Motion** - Animation library
+- **React Router** - Client-side routing
 
 ## Getting Started
 
 ### Prerequisites
 
-- Bun (recommended) or Node.js
-- Git
+- Node.js (v16 or higher)
+- npm
 
 ### Installation
 
@@ -23,49 +38,40 @@ cd aravista-heights
 
 2. Install dependencies:
 ```sh
-bun install
+npm install
 ```
 
 3. Start the development server:
 ```sh
-bun run dev
+npm run dev
 ```
 
 The application will be available at `http://localhost:8080`
 
-## Technologies Used
-
-This project is built with modern web technologies:
-
-- **Bun** 1.3.4 - Fast JavaScript runtime and package manager
-- **Vite** 7.2.7 - Next-generation frontend tooling
-- **TypeScript** - Type-safe JavaScript
-- **React** 19.2.1 - UI library
-- **shadcn/ui** - Modern UI components
-- **Tailwind CSS** - Utility-first CSS framework
-- **Framer Motion** - Animation library
-- **React Router** - Client-side routing
-
 ## Available Scripts
 
-- `bun run dev` - Start development server
-- `bun run build` - Build for production
-- `bun run preview` - Preview production build
-- `bun run lint` - Run ESLint
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## Project Structure
+
+```
+src/
+├── components/     # Reusable UI components
+├── pages/         # Page components
+├── assets/        # Images and static assets
+├── hooks/         # Custom React hooks
+└── lib/           # Utility functions
+```
 
 ## Deployment
-
-This project can be deployed to any static hosting service such as:
-
-- Vercel
-- Netlify
-- GitHub Pages
-- AWS S3 + CloudFront
 
 To build for production:
 
 ```sh
-bun run build
+npm run build
 ```
 
-The built files will be in the `dist` directory.
+The built files will be in the `dist` directory and ready for deployment to any static hosting service.
